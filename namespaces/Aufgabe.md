@@ -10,17 +10,17 @@ Wird ein Gehege geschlossen, werden die Tiere freigelassen und verabschieden sic
 ![Class Diagram](zoo.png)
 
 ## mögliche Ausgaben
-Zoo wird angelegt:
-    Pinguin(<- typ)-Wasserbecken wird angelegt:
-        neuer Pinguin
-        ...
+* Zoo wird angelegt:
+    + Pinguin(<- typ)-Wasserbecken wird angelegt:
+        + neuer Pinguin
+        + ...
 
-Fütterungszeit:
-    Pinguin-Gehege wird gefüttert:
-        Pinguin ist
-        ....
+* Fütterungszeit:
+    + Pinguin-Gehege wird gefüttert:
+        + Pinguin ist
+        + ....
 
-Zoo wird aufgelöst:
-    Pinguin-Gehege wird aufgelöst:
-        Pinguin in Freiheit entlassen
-        ....
+* Zoo wird aufgelöst:
+    + Pinguin-Gehege wird aufgelöst:
+        + Pinguin in Freiheit entlassen
+        + ....
