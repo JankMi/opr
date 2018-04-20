@@ -7,7 +7,7 @@ Nach dem Sie die Tiere ein paar mal gefüttert haben (Ausgabe durch die Fütter-
 Wird ein Gehege geschlossen, werden die Tiere freigelassen und verabschieden sich.
 
 ## UML
-![Class Diagram](./out/zoo.png)
+![Class Diagram](zoo.png)
 
 ## mögliche Ausgaben
 Zoo wird angelegt:
