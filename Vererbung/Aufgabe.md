@@ -35,7 +35,7 @@ Legen Sie Ihre Architektur als PDF-Dokument Ihrem Quellcode bei.
     * Eine Kindklasse überschreibt hierbei die Funktion ``string text()`` der Elternklasse.
     * Das Überschreiben von Funktionen der Elternklasse haben wir noch nicht im Unterricht besprochen. Bei Bedarf sollten Sie sich die Hintergründe im Skript oder einer anderen Quelle ansehen.
     * Falls Sie sich etwas Programmieraufwand sparen möchten, können Sie innerhalb der ``text()``-Funktion der Kindklasse auf die ``text()``-Funktion der Elternklasse ``E`` über die Notation ``E::text()`` zugreifen.
-7. Die Zoo Klasse berechnet die nötige Gesamtfläche und gibt diese in ```text()``` mit aus
+7. Die Zoo Klasse berechnet die nötige Gesamtfläche und gibt diese in ```text()``` mit aus, sowie die Anzahl der erforderlichen Becken und Volieren
 8. Schreiben Sie ein Testprogramm ``main()``, in dem Sie
     * von jeder Klasse, die ein Gehege darstellt, ein Objekt anlegen,
     * die Funktion string ``text()`` für diese Objekte aufrufen,
