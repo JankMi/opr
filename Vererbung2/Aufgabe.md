@@ -25,10 +25,10 @@ für jeden Pixel an [x][y]
         Abbruch falls abs(neuePosition)^2 > 4 // schneller als abs(neuePosition) > 2
     Farbwert des Pixels = i
 ```
--0.8 + 0.2i liefert
-![](m0k8p0k2.png)
+-0.8 + 0.2i lieferty<br>
+![](m0k8p0k2.png?s=200)
 
--0.7 + 0.27015i
+-0.7 + 0.27015i<br>
 ![](test.png)
 
 ## OpenCV 2.4
@@ -53,9 +53,13 @@ OpenCV ist eine freie Programmbibliothek mit Algorithmen für die Bildverarbeitu
     - command prompt öffnen und in den Ordner [1] navigieren
         - build mit ``(pfad)(mingw32-)make -jX`` starten, die -j[Anzahl] option compiliert parallel in X jobs
         - ``(pfad)(mingw32-)make install`` kopiert header und libraries in [2]
+    - nun sollte Ihr install Order [2] wie folgt aussehen <br> ![](installFolder.png)
+        - damit können wie unter [Ausführlich](https://www.kevinhughes.ca/tutorials/opencv-install-on-windows-with-codeblocks-and-mingw) Step 6 + 7 beschrieben vorgehen (Administratorberechtigung!)
+        - oder ein openCV-Projekt in CodeBlocks anlegen, das Ihnen Beispiel-Code erzeugt und ein Foto von Arnold Schwarzenegger anzeigt<br>![](projecthelper.png)
 
 ### Verwendung
 - [Bilder speichern](https://docs.opencv.org/2.4/modules/highgui/doc/reading_and_writing_images_and_video.html)
 - [Bilder anzeigen](https://docs.opencv.org/2.4/modules/highgui/doc/user_interface.html?highlight=imshow#imshow)
+
 
 
