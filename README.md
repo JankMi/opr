@@ -7,3 +7,6 @@
     - (alternative) Aufgabensammlung (unter Bearbeitung!)
 - hier
   - meine Aufgaben und Infos
+
+## Termin 1
+von Prof. Mahr - Grundlagen
