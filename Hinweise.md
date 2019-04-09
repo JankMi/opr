@@ -33,7 +33,7 @@ Als Faustformel sollte nur die Klassendeklaration und deren Dokumentation im Hea
 - ggf. mehr
 
 zu inline-Funktionen:  
-Funktionen, die innerhalb der Klassendeklaration definiert werden sind automatisch inline Funktionen, mit dem `ìnline` Schlüsselwort können inline Funktionen auch außerhalb der Klassen-Deklaration definiert werden. Die [google-c++ Programmierrichtlinien](https://google.github.io/styleguide/cppguide.html#Header_Files) schlagen eine Obergrenze für inline-Funktionen von Zeilen vor - Keine Schleifen! Keine Rekursionen! - Allerdings ist inline nur eine Empfehlung.
+Funktionen, die innerhalb der Klassendeklaration definiert werden sind inline Funktionen. Die [google-c++ Programmierrichtlinien](https://google.github.io/styleguide/cppguide.html#Header_Files) schlagen eine Obergrenze für inline-Funktionen von Zeilen vor - Keine Schleifen! Keine Rekursionen! - Allerdings ist inline nur eine Empfehlung.
 
 ### Fälle in denen Header source Trennung unbedingt nötig ist
 Unter anderem bei Vorwärtsdeklarationen, diese sind nötig wenn in der Architektur ein Henne-Ei-Problem auftritt. Würde `Henne.h`  `Ei.h` inkludieren und umgekehrt `Ei.h` `Henne.h` inkludieren würden dies die include-guards verhinder, bzw. ohne eine Endlosschleife entstehen. In der folgenden Lösung wird in beiden Headern per Vorwärtsdeklaration bekannt gegben, dass eine Klasse mit dem jeweiligen Namen existiert und beim Kompilieren der source-Datei zur Verfügung steht (include in cpp-Datei)
