@@ -92,37 +92,22 @@ Logger: Haus::~Haus()
 Logger: Haus::~Haus()
 Strasse: Hauptstrasse hat die Haeuser:
         Haus: Hauptstrasse 1
-Logger: Haus::~Haus()
         Haus: Hauptstrasse 2
-Logger: Haus::~Haus()
         Haus: Hauptstrasse 3
-Logger: Haus::~Haus()
         Haus: Hauptstrasse 5
-Logger: Haus::~Haus()
         Haus: Hauptstrasse 6
-Logger: Haus::~Haus()
 Strasse: Nebenstrasse hat die Haeuser:
         Haus: Nebenstrasse 10
-Logger: Haus::~Haus()
         Haus: Nebenstrasse 12
-Logger: Haus::~Haus()
         Haus: Nebenstrasse 53
-Logger: Haus::~Haus()
         Haus: Nebenstrasse 45
-Logger: Haus::~Haus()
         Haus: Nebenstrasse 26
-Logger: Haus::~Haus()
 Strasse: Drittestrasse hat die Haeuser:
         Haus: Drittestrasse 38
-Logger: Haus::~Haus()
         Haus: Drittestrasse 93
-Logger: Haus::~Haus()
         Haus: Drittestrasse 2
-Logger: Haus::~Haus()
         Haus: Drittestrasse 834
-Logger: Haus::~Haus()
         Haus: Drittestrasse 120
-Logger: Haus::~Haus()
 Logger: Strasse::~Strasse()
 Logger: Haus::~Haus()
 Logger: Haus::~Haus()
