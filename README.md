@@ -19,3 +19,7 @@ von Prof. Mahr - Flugkurve 02
 - Ersetzten Sie die ausgabeKoerper-Funktion durch eine Funktion der Klasse Koerper, die einen string zurück gibt und nicht direkt auf cout schreibt
 ## Termin 4
 Aufgabenbeschreibung in Verzeichnis Aufg4
+## Termin 5
+von Prof. Mahr - Verkehrsmittel
+## Termin 6
+von Prof. Mahr - Musiker
