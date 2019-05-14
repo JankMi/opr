@@ -23,3 +23,7 @@ Aufgabenbeschreibung in Verzeichnis Aufg4
 von Prof. Mahr - Verkehrsmittel
 ## Termin 6
 von Prof. Mahr - Musiker
+## Termin 7
+von Prof. Mahr - Alarmierbar
+## Termin 8
+von Prof. Mahr - Atomkern/Reaktor
