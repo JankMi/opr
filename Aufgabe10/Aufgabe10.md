@@ -14,6 +14,6 @@ Da Ihnen auffällt, dass sich in diesem Modell Flugzeuge mehrere Kilometer in de
 Jetzt die UFOs:
 Hier liefert getID() keine gültige ID sondern eine exception. Vergleichen Sie was passiert wenn Sie "!!!!!UFO!!!!!" werfen und wenn sie eine `ExtraTerestrial_Exception` von `std::logic_error` ableiten und eine Instanz davon werfen.
 
-![alt text](https://github.com/JankMi/opr/tree/master/Aufgabe10/Radar.png "Class diagram 'radar'")
+![ "Class diagram 'radar'"](https://github.com/JankMi/opr/blob/master/Aufgabe10/Radar.png)
 
 
