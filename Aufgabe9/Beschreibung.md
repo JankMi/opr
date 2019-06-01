@@ -1,4 +1,4 @@
-# Temmplates und nochmal operatoren
+# Templates und Operatoren
 
 Erstellen Sie eine parametrierbare/template Klasse VektorSumme, die Vektoren summieren kann. Zum Test erstellen Sie die Klassen Vektor2D und Vektor3D. Die Klassen und Operatoren sind unfreundlich.
 
@@ -51,5 +51,5 @@ Laenge: 4.24264 Vektor: Vektor(3/3)
 
 Laenge: 3.4641 Vektor: Vektor(2/2/2)
 
-Laenge: 4.89898 Vektor: Vektor(3/3/3)
+Laenge: 5.19615 Vektor: Vektor(3/3/3)
 ```
