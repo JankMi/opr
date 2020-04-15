@@ -6,18 +6,23 @@
 - Konstruktoren & Destruktoren
 
 ## Aufgabe
-Verwenden Sie in dieser Aufgaben einen Logger, der als Singleton-Realisiert ist, für die Ausgaben.
-Das heißt, es ist sichergestellt, dass nur eine Instanz dieser Klasse existieren kann!
-In der Regel verwendet man eine static-Funktion, welche die Instanz mittels privatem Konstruktor erzeugt, wenn noch keine Instanz existiert.
-Dieses Objekt gibt mit der schreibe-Funktion den übergebenen Text auf cout aus, mit vorgestelltem "Logger: ".
-
-Die folgenden Klassen schreiben im Konstruktor/Destruktor auf den Logger ihre Signatur. (compiler-macors \_\_func\_\_ oder \_\_PRETTY_FUNCTION\_\_ ?)
-
 Erstellen Sie ein Programm, dass ihnen Straßen mit Häusern erzeugt.
-Die Straßen erhalten beim Konstruktor-Aufruf eine Initialisierungsliste mit Hausnummern, für die Häuser erzeugt werden und speichern sie in einem Vektor. Weiter erhalten die Straßen beim Konstruktor aufruf einen Namen. Die Häuser haben Straßennamen und Hausnummer. Straßen und Häuser haben Funktionen um direkt auf cout ihre Werte auszugeben.
+Die Straßen erhalten beim Konstruktor-Aufruf eine Initialisierungsliste/set/andereContainerklasse mit Hausnummern, für die Häuser erzeugt werden und speichern sie in einem Vektor. Weiter erhalten die Straßen beim Konstruktor aufruf einen Namen. Die Häuser haben Hausnummer. Straßen können mit schreibe() direkt auf cout ihren Namen und deren Häuser ausgeben.
 
 Erzeugen Sie >=3 Straßen, mit jeweils meherern Häusern.
 Geben Sie die Straßen und Häuser nach Erzeugung aus.
+
+
+Verwenden Sie in dieser Aufgaben einen Logger, um Konstruktor und Destruktor aufrufe auszugeben.
+
+Der Logger soll als Singleton realisiert sein, das heißt, es ist sichergestellt, dass nur eine Instanz dieser Klasse existieren kann!
+
+In der Regel verwendet man eine static-Funktion(getLogger), welche die Instanz(m_logger) mittels privatem Konstruktor erzeugt, wenn noch keine Instanz existiert.
+Dieses Objekt gibt mit der schreibe-Funktion den übergebenen Text auf cout aus, mit vorgestelltem "Logger: ".
+
+Die Klassen schreiben im Konstruktor/Destruktor auf den Logger ihre Signatur/Namen. (compiler-macors __func__ oder __PRETTY_FUNCTION__ ?)
+
+[Hier können Sie die Lebensdaurern der Objekte bei unterschiedlichen "Speichermethoden"(Zeiger/Objekte/Referenzen) im Container vergleichen. Ggf auf den copyconstructor auf logger schreiben lassen.] 
 
 ### mögliche main
 ```c++
